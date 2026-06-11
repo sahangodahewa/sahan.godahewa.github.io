@@ -5,189 +5,259 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sahan M. Godahewa</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-<header class="top-nav-container">
-    <div class="site-title">Sahan M. Godahewa</div>
-    <nav class="navigation">
-        <button class="tab-btn active" onclick="openTab('home')">Home</button>
-        <button class="tab-btn" onclick="openTab('research')">Research</button>
-        <button class="tab-btn" onclick="openTab('publications')">Publications</button>
-        <button class="tab-btn" onclick="openTab('projects')">Projects</button>
-        <button class="tab-btn" onclick="openTab('cv')">CV</button>
-    </nav>
+<header>
+    <h1>Sahan M. Godahewa, Ph.D. </h1>
+    <p>University of Kansas | Materials Scientist | Computational Chemist</p>
 </header>
 
-<div class="page-wrapper">
+<nav>
+    <button class="tab-btn active" onclick="openTab('home')">Home</button>
+    <button class="tab-btn" onclick="openTab('research')">Research</button>
+    <button class="tab-btn" onclick="openTab('publications')">Publications</button>
+    <button class="tab-btn" onclick="openTab('projects')">Projects</button>
+    <button class="tab-btn" onclick="openTab('cv')">CV</button>
+    <button class="tab-btn" onclick="openTab('contact')">Contact</button>
+</nav>
+
+<main>
+
+<section id="home" class="tab-content active">
+    <h2>About Me</h2>
+
+    <img src="assets/img/profile.jpg" alt="Profile Photo" class="profile-photo">
+
+    <p>
+        I am a computational scientist specializing in molecular simulation,
+        adsorption phenomena, porous materials, surface chemistry, and machine
+        learning applications in materials science.
+    </p>
+
+    <h3>Research Interests</h3>
+    <ul>
+        <li>Dynamics of liquids in mesoporous structures</li>
+        <li>Carbon Capture and Storage</li>
+        <li>Surface Chemistry and reactions</li>
+        <li>Machine Learning for Materials Science</li>
+    </ul>
+</section>
+
+<section id="research" class="tab-content">
+    <h2>Research</h2>
+
+    <h3>Molecular Simulation</h3>
+    <p>
+        Investigating adsorption, diffusion, and transport phenomena in porous materials.
+    </p>
+
+    <h3>Machine Learning</h3>
+    <p>
+        Applying data-driven methods to accelerate materials discovery.
+    </p>
+
+    <h3>Methods</h3>
+    <ul>
+        <li>Molecular Dynamics</li>
+        <li>Monte Carlo</li>
+        <li>Density Functional Theory</li>
+        <li>Machine Learning</li>
+    </ul>
+</section>
+
+<section id="publications" class="tab-content">
+    <h2>Publications</h2>
+
+    <div class="card">
+        <h3 style="color: #0066cc;">An insightful approach to understanding the mechanism of amino acid adsorption on inorganic surfaces: Glycine on silica</h3>
+        <p><strong>Authors :</strong> <strong>Godahewa, S.M.</strong>, Tillekaratne, A.</p>
+        <p><strong>Journal, Year:</strong> Chemistry & Chemical Technology, 2023</p>
+        <a href="assets/pdf/paper1.pdf" target="_blank" style="color: #9c27b0; text-decoration: underline; font-size: 0.95rem;">
+    📄 View PDF
+            </a>
+    </div>
+
+    <div class="card">
+        <h3 style="color: #0066cc;">An accurate force field for carbon
+dioxide-silica interactions based on density functional theory</h3>
+        <p><strong>Authors :</strong><strong>Godahewa, S.M.</strong>, Jayawardena, T., Thompson, W.H., Greathouse, J.A.</p>
+        <p><strong>Journal, Year:</strong>Journal of Physical Chemistry B, 2025</p>
+        <a href="assets/pdf/paper2.pdf" target="_blank" style="color: #9c27b0; text-decoration: underline; font-size: 0.95rem;">
+    📄 View PDF
+            </a>
+    </div>
+
+    <div class="card">
+        <h3 style="color: #0066cc;">Effects of Confinement and Pressure
+on the Structure and Dynamics of Carbon Dioxide in Silica Slit Pores.</h3>
+        <p><strong>Authors :</strong><strong>Godahewa, S.M.</strong>, Jayawardena, T., Thompson, W.H., Greathouse, J.A.</p>
+        <p><strong>Journal, Year:</strong>Journal of Chemical Physics, 2026</p>
+        <a href="assets/pdf/paper3.pdf" target="_blank" style="color: #9c27b0; text-decoration: underline; font-size: 0.95rem;">
+    📄 View PDF
+            </a>
+    </div>
+
+    <div class="card">
+        <h3 style="color: #0066cc;">Modeling the
+Structural Heterogeneity of Vicinal Silanols and Its Effects on TiCl4 Grafting onto Amorphous Silica</h3>
+        <p><strong>Authors :</strong> Khan, S.A., <strong>Godahewa, S.M.</strong>, Wimalasiri, P.N., Thompson, W.H., Scott, S.L., Peters, B.</p>
+        <p><strong>Journal, Year:</strong> Chemistry of Materials, 2022</p>
+        <a href="assets/pdf/paper4.pdf" target="_blank" style="color: #9c27b0; text-decoration: underline; font-size: 0.95rem;">
+    📄 View PDF
+            </a>
+    </div>
+
+    <div class="card">
+        <h3 style="color: #0066cc;">Ab Initio-Derived Force Field for Amorphous Silica Interfaces for Use in Molecular Dynamics Simulations</h3>
+        <p><strong>Authors :</strong>Senanayake, H.S., Wimalasiri, P.N., <strong>Godahewa, S.M.</strong>, Thompson, W.H., Greathouse, J.A.</p>
+        <p><strong>Journal, Year:</strong> The Journal of Physical Chemistry C, 2023.</p>
+        <a href="assets/pdf/paper5.pdf" target="_blank" style="color: #9c27b0; text-decoration: underline; font-size: 0.95rem;">
+    📄 View PDF
+            </a>
+    </div>
+
+    <div class="card">
+        <h3 style="color: #0066cc;">Beyond Force Field Mixing Rules to Model Silica-Water Interfaces</h3>
+        <p><strong>Authors :</strong>Jayawardena, T., <strong>Godahewa, S.M.</strong>, Thompson, W.H., Greathouse, J.A.</p>
+        <p><strong>Journal, Year:</strong> Journal of Physical Chemistry C, 2025</p>
+        <a href="assets/pdf/paper6.pdf" target="_blank" style="color: #9c27b0; text-decoration: underline; font-size: 0.95rem;">
+    📄 View PDF
+            </a>
+    </div>
     
-    <aside class="sidebar">
-        <div class="sidebar-sticky">
-            <img src="assets/img/profile.jpg" alt="Sahan M. Godahewa" class="profile-photo">
-            
-            <div class="sidebar-meta">
-                <h2>Sahan M. Godahewa, Ph.D.</h2>
-                <p class="sidebar-bio">Materials Scientist | Computational Chemist</p>
-            </div>
+</section>
 
-            <hr class="sidebar-divider">
+<section id="projects" class="tab-content">
+    <h2>Projects</h2>
 
-            <ul class="sidebar-links">
-                <li><i class="fa-solid fa-building-columns"></i> <span>University of Kansas</span></li>
-                <li><i class="fa-solid fa-location-dot"></i> <span>Colombo, Sri Lanka</span></li>
-                <li><i class="fa-solid fa-envelope"></i> <a href="mailto:sahanm830@gmail.com">Email</a></li>
-                <li><i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=-yLiTJUAAAAJ&hl=en&authuser=1" target="_blank">Google Scholar</a></li>
-                <li><i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0009-0008-8300-6606" target="_blank">ORCID</a></li>
-                <li><i class="fa-brands fa-github"></i> <a href="https://github.com/sahangodahewa" target="_blank">GitHub</a></li>
-                <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/sahan-godahewa/" target="_blank">LinkedIn</a></li>
-            </ul>
-            
-            <div class="sidebar-qr">
-                <img src="assets/img/orcid-qr.png" alt="ORCID QR Code" class="orcid-qr">
-            </div>
-        </div>
-    </aside>
+    <div class="card">
+        <h3>CO₂ Adsorption in Porous Silica</h3>
+        <p>Molecular simulation study of adsorption and transport.</p>
+    </div>
 
-    <main class="main-content">
+    <div class="card">
+        <h3>Machine Learning for Materials Discovery</h3>
+        <p>Predictive models for materials properties.</p>
+    </div>
+</section>
 
-        <section id="home" class="tab-content active">
-            <h2>About Me</h2>
-            <p>
-                I am a computational scientist specializing in molecular simulation,
-                adsorption phenomena, porous materials, surface chemistry, and machine
-                learning applications in materials science.
-            </p>
+<section id="cv" class="tab-content">
+    <h2>CV</h2>
 
-            <h3>Research Interests</h3>
-            <ul>
-                <li>Dynamics of liquids in mesoporous structures</li>
-                <li>Carbon Capture and Storage</li>
-                <li>Surface Chemistry and reactions</li>
-                <li>Machine Learning for Materials Science</li>
-            </ul>
-        </section>
-
-        <section id="research" class="tab-content">
-            <h2>Research</h2>
-            <h3>Molecular Simulation</h3>
-            <p>Investigating adsorption, diffusion, and transport phenomena in porous materials.</p>
-
-            <h3>Machine Learning</h3>
-            <p>Applying data-driven methods to accelerate materials discovery.</p>
-
-            <h3>Methods</h3>
-            <ul>
-                <li>Molecular Dynamics</li>
-                <li>Monte Carlo</li>
-                <li>Density Functional Theory</li>
-                <li>Machine Learning</li>
-            </ul>
-        </section>
-
-        <section id="publications" class="tab-content">
-            <h2>Publications</h2>
-
-            <div class="card">
-                <h3 class="paper-title">An insightful approach to understanding the mechanism of amino acid adsorption on inorganic surfaces: Glycine on silica</h3>
-                <p><strong>Authors :</strong> <strong>Godahewa, S.M.</strong>, Tillekaratne, A.</p>
-                <p><strong>Journal, Year:</strong> Chemistry & Chemical Technology, 2023</p>
-                <a href="assets/pdf/paper1.pdf" target="_blank" class="pdf-link">📄 View PDF</a>
-            </div>
-
-            <div class="card">
-                <h3 class="paper-title">An accurate force field for carbon dioxide-silica interactions based on density functional theory</h3>
-                <p><strong>Authors :</strong> <strong>Godahewa, S.M.</strong>, Jayawardena, T., Thompson, W.H., Greathouse, J.A.</p>
-                <p><strong>Journal, Year:</strong> Journal of Physical Chemistry B, 2025</p>
-                <a href="assets/pdf/paper2.pdf" target="_blank" class="pdf-link">📄 View PDF</a>
-            </div>
-
-            <div class="card">
-                <h3 class="paper-title">Effects of Confinement and Pressure on the Structure and Dynamics of Carbon Dioxide in Silica Slit Pores.</h3>
-                <p><strong>Authors :</strong> <strong>Godahewa, S.M.</strong>, Jayawardena, T., Thompson, W.H., Greathouse, J.A.</p>
-                <p><strong>Journal, Year:</strong> Journal of Chemical Physics, 2026</p>
-                <a href="assets/pdf/paper3.pdf" target="_blank" class="pdf-link">📄 View PDF</a>
-            </div>
-
-            <div class="card">
-                <h3 class="paper-title">Modeling the Structural Heterogeneity of Vicinal Silanols and Its Effects on TiCl4 Grafting onto Amorphous Silica</h3>
-                <p><strong>Authors :</strong> Khan, S.A., <strong>Godahewa, S.M.</strong>, Wimalasiri, P.N., Thompson, W.H., Scott, S.L., Peters, B.</p>
-                <p><strong>Journal, Year:</strong> Chemistry of Materials, 2022</p>
-                <a href="assets/pdf/paper4.pdf" target="_blank" class="pdf-link">📄 View PDF</a>
-            </div>
-
-            <div class="card">
-                <h3 class="paper-title">Ab Initio-Derived Force Field for Amorphous Silica Interfaces for Use in Molecular Dynamics Simulations</h3>
-                <p><strong>Authors :</strong> Senanayake, H.S., Wimalasiri, P.N., <strong>Godahewa, S.M.</strong>, Thompson, W.H., Greathouse, J.A.</p>
-                <p><strong>Journal, Year:</strong> The Journal of Physical Chemistry C, 2023.</p>
-                <a href="assets/pdf/paper5.pdf" target="_blank" class="pdf-link">📄 View PDF</a>
-            </div>
-
-            <div class="card">
-                <h3 class="paper-title">Beyond Force Field Mixing Rules to Model Silica-Water Interfaces</h3>
-                <p><strong>Authors :</strong> Jayawardena, T., <strong>Godahewa, S.M.</strong>, Thompson, W.H., Greathouse, J.A.</p>
-                <p><strong>Journal, Year:</strong> Journal of Physical Chemistry C, 2025</p>
-                <a href="assets/pdf/paper6.pdf" target="_blank" class="pdf-link">📄 View PDF</a>
-            </div>
-        </section>
-
-        <section id="projects" class="tab-content">
-            <h2>Projects</h2>
-            <div class="card">
-                <h3>CO₂ Adsorption in Porous Silica</h3>
-                <p>Molecular simulation study of adsorption and transport.</p>
-            </div>
-            <div class="card">
-                <h3>Machine Learning for Materials Discovery</h3>
-                <p>Predictive models for materials properties.</p>
-            </div>
-        </section>
-
-        <section id="cv" class="tab-content">
-            <h2>CV</h2>
-            <div class="card">
-                 <h3>Professional Summary</h3>
-                 Materials scientist with 5+ years of experience in computational modeling, molecular simulations, and chemistry research. Skilled in both advanced computation and laboratory techniques, with a strong passion for teaching, mentorship, and translating research into practical applications.
-            </div>
-
-            <div class="card">
-                <h3>Education</h3>
-                <strong>Ph.D. in Chemistry</strong> (2019 — 2025)<br>
-                University of Kansas, USA
-                <br><br>
-                <strong>B.Sc. (Hons)</strong> (2014 — 2018)<br>
-                University of Colombo, Sri Lanka
-            </div>
-
-            <div class="card">
-                <h3>Skills</h3>
-                <table class="skills-table">
-                    <tr>
-                        <td><strong>Programming:</strong></td>
-                        <td>Python, Fortran, Shell scripts, HPC scripting</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Simulation software:</strong></td>
-                        <td>LAMMPS, VASP, NWchem, QChem, CP2K</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Utility programs:</strong></td>
-                        <td>VMD, PyMOL, MS Office, VESTA, GRACE, LaTeX, Blender, AVOGADRO</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Experimental:</strong></td>
-                        <td>SEM, TGA, FTIR, UV/VIS Spectrophotometer, pH analysis, Calorimetry</td>
-                    </tr>
-                </table>
-            </div>
-
-            <h3>Download Full CV</h3>
-            <a href="assets/pdf/cv.pdf" class="btn">Download PDF</a>
-        </section>
-
-    </main>
+    <div class="card">
+    <h3>Contact Information</h3>
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td style="width: 180px; font-weight: bold; padding-bottom: 12px; vertical-align: top;">Name</td>
+            <td style="padding-bottom: 12px; vertical-align: top;">Sahan M. Godahewa</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold; padding-bottom: 12px; vertical-align: top;">Professional Title</td>
+            <td style="padding-bottom: 12px; vertical-align: top;">Ph.D. in Chemistry</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold; padding-bottom: 12px; vertical-align: top;">Email</td>
+            <td style="padding-bottom: 12px; vertical-align: top;">sahanm830@gmail.com</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold; padding-bottom: 12px; vertical-align: top;">Location</td>
+            <td style="padding-bottom: 12px; vertical-align: top;">Colombo, Sri Lanka</td>
+        </tr>
+    </table>
 </div>
 
+    <div class="card">
+     <h3>Professional Summary</h3>
+        Materials scientist with 5+ years of experience in computational modeling, molecular simulations, and chemistry
+research. Skilled in both advanced computation and laboratory techniques, with a strong passion for teaching,
+mentorship, and translating research into practical applications.
+    </div>
+
+    <div class="card">
+        <h3>Education</h3>
+        <strong>Ph.D. in Chemistry</strong> (2019 — 2025)<br>
+        University of Kansas, USA
+        <br><br>
+        <strong>B.Sc. (Hons)</strong> (2014 — 2018)<br>
+        University of Colombo, Sri Lanka
+    </div>
+
+    <div class="card">
+    <h3>Skills</h3>
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td style="width: 180px; font-weight: bold; padding-bottom: 12px; vertical-align: top;">Programming:</td>
+            <td style="padding-bottom: 12px; vertical-align: top;">Python, Fortran, Shell scripts, HPC scripting</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold; padding-bottom: 12px; vertical-align: top;">Simulation software packages:</td>
+            <td style="padding-bottom: 12px; vertical-align: top;">LAMMPS, VASP, NWchem, QChem, CP2K</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold; padding-bottom: 12px; vertical-align: top;">Utility programs:</td>
+            <td style="padding-bottom: 12px; vertical-align: top;">VMD, PyMOL, MS Office, VESTA, GRACE, LaTeX, Blender, AVOGADRO</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold; padding-bottom: 12px; vertical-align: top;">Experimental techniques:</td>
+            <td style="padding-bottom: 12px; vertical-align: top;">SEM, TGA, FTIR, UV/VIS Spectrophotometer, pH analysis, Calorimetry</td>
+        </tr>
+    </table>
+</div>
+
+    
+    <h3>Download Full CV</h3>
+
+  <a href="assets/pdf/cv.pdf" class="btn">
+      Download PDF
+  </a>
+
+</section>
+
+<section id="contact" class="tab-content">
+    <h2>Contact</h2>
+
+    <p>Email:
+        <a href="mailto:sahanm830@gmail.com">
+        sahanm830@gmail.com
+        </a>
+    </p>
+
+    <p>GitHub:
+        <a href="https://github.com/sahangodahewa" target="_blank">
+        github.com/sahangodahewa
+        </a>
+    </p>
+
+    <p>LinkedIn:
+        <a href="https://www.linkedin.com/in/sahan-godahewa/" target="_blank">
+        LinkedIn/sahangodahewa
+        </a>
+    </p>
+
+    <p>Google Scholar:
+        <a href="https://scholar.google.com/citations?user=-yLiTJUAAAAJ&hl=en&authuser=1" target="_blank">
+        Google Scholar Profile 
+        </a>
+    </p>
+
+    <p>
+        ORCID:
+        <a href="https://orcid.org/0009-0008-8300-6606" target="_blank">
+            ORCID-Sahan Godahewa
+        </a>
+    </p>
+
+    <img src="assets/img/orcid-qr.png"
+         alt="ORCID QR Code"
+         class="orcid-qr">
+
+    
+</section>
+
+</main>
+
 <script src="script.js"></script>
+
 </body>
 </html>
